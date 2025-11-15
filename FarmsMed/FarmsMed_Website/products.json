@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "title": "Aquaculture Solutions",
+      "desc": "Medicines, probiotics, water conditioners and feed solutions for shrimp and fish."
+    },
+    {
+      "title": "Agricultural Products",
+      "desc": "Herbal medicines, biostimulants, soil enhancers and crop-specific nutrition."
+    },
+    {
+      "title": "Dairy & Veterinary",
+      "desc": "Veterinary herbal formulations and nutrition designed for Indian dairy farms."
+    }
+  ],
+  "products": [
+    {
+      "name": "BioPro Aqua Feed",
+      "short": "Premium feed supplement for shrimp & fish.",
+      "price": 499,
+      "group": "Aquaculture",
+      "image": ""
+    },
+    {
+      "name": "Organic Crop Enhancer",
+      "short": "Soil & yield improver for sustainable farming.",
+      "price": 599,
+      "group": "Agriculture",
+      "image": ""
+    },
+    {
+      "name": "Dairy Health Mix",
+      "short": "Veterinary supplement for improved milk yield.",
+      "price": 699,
+      "group": "Dairy",
+      "image": ""
+    },
+    {
+      "name": "AutoDoser 2000",
+      "short": "IoT-powered automated dosing system.",
+      "price": 24999,
+      "group": "Automation",
+      "image": ""
+    }
+  ]
+}

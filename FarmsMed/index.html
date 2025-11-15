@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home — FarmsMed</title>
+  <meta name="description" content="Empowering Farmers Through Science, Sustainability & Innovation" />
+  <meta name="keywords"
+    content="FarmsMed, aquaculture, agriculture, dairy, farm automation, probiotics, herbal medicine" />
+  <link rel="canonical" href="https://farmsmed.in/" />
+  <meta property="og:title" content="Home — FarmsMed" />
+  <meta property="og:description" content="Empowering Farmers Through Science, Sustainability & Innovation" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FarmsMed" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --fm-green: #15803d;
+      --fm-footer: #1f2937;
+    }
+
+    html,
+    body {
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+
+    .nav-scrolled {
+      background: white;
+      box-shadow: 0 6px 24px rgba(15, 23, 42, 0.08);
+    }
+
+    .hero-overlay {
+      background: linear-gradient(180deg, rgba(21, 128, 61, 0.45), rgba(255, 255, 255, 0.05));
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+  <!-- NAV -->
+  <header id="siteNav" class="fixed w-full z-40">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4 bg-white/0">
+      <div class="flex items-center gap-3">
+        <img src="Logo.jpg" alt="FarmsMed logo" width="50" height="50" class="rounded" />
+        <div>
+          <div class="font-bold text-lg">
+            <span style="color:var(--fm-green)">Farms</span><span style="color:#0077b6">Med</span>
+          </div>
+          <div class="text-xs text-gray-500 -mt-1">Integrated Aqua & Agri Innovations</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="index.html" class="text-gray-700 hover:text-[#15803d]">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-[#15803d]">About Us</a>
+        <a href="focused-area.html" class="text-gray-700 hover:text-[#15803d]">Focused Areas</a>
+        <a href="products.html" class="text-gray-700 hover:text-[#15803d]">Products</a>
+        <a href="team.html" class="text-gray-700 hover:text-[#15803d]">Meet Our Team</a>
+        <a href="join.html" class="text-gray-700 hover:text-[#15803d]">Join Our Team</a>
+      </nav>
+      <div class="md:hidden flex items-center gap-2">
+        <button id="mobileToggle" class="p-2 rounded border">☰</button>
+      </div>
+    </div>
+  </header>
+  <div id="mobileMenu" class="hidden md:hidden bg-white shadow p-4 border-b">
+    <a href="index.html" class="block py-2">Home</a>
+    <a href="about.html" class="block py-2">About Us</a>
+    <a href="focused-area.html" class="block py-2">Focused Areas</a>
+    <a href="products.html" class="block py-2">Products</a>
+    <a href="team.html" class="block py-2">Meet Our Team</a>
+    <a href="join.html" class="block py-2">Join Our Team</a>
+  </div>
+
+  <main class="pt-28">
+
+    <!-- HERO carousel -->
+    <section class="relative">
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden">
+        <img src="Hero1.jpg" alt="Farm fields" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-6 items-center">
+              <div>
+                <h1 class="text-4xl md:text-5xl font-bold text-white">Empowering Farmers Through Science, Sustainability
+                  & Innovation</h1>
+                <p class="mt-4 text-white/90 max-w-xl">Cleaner Water. Healthier Harvests. Prosperous Farmers.
+                  Science-led solutions for aquaculture, agriculture, dairy and farm automation.</p>
+                <div class="mt-6 flex gap-3">
+                  <a href="about.html" class="px-4 py-2 rounded bg-white text-[#15803d] font-semibold">Learn More</a>
+                  <a href="products.html" class="px-4 py-2 rounded border border-white text-white">Explore Products</a>
+                </div>
+              </div>
+              <div class="hidden md:block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Aquaculture" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">MULTIMIN SPARK</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Dairy farming" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">Neo-Oxy+</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Dairy farming" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">Plankto-Max</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Dairy farming" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">Neo-Disinfector</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Dairy farming" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">Neo-Disinfector-PA</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Dairy farming" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">Hydro-SAN+</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide relative w-full h-[520px] overflow-hidden hidden">
+        <img src="hero1.jpg" alt="Dairy farming" class="object-cover w-full h-full" />
+        <div class="absolute inset-0 hero-overlay flex items-center">
+          <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-white">ZeoMed+</h2>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- About preview -->
+    <section class="max-w-6xl mx-auto p-6 fade-up">
+      <div class="grid md:grid-cols-2 gap-6 items-center">
+        <div>
+          <h2 class="text-3xl font-bold" style="color:var(--fm-green)">About FarmsMed</h2>
+          <p class="mt-3 text-gray-700">FarmsMed is a new-age agri-tech and biosolutions enterprise dedicated to
+            transforming the future of aquaculture, dairy, and agriculture through science, sustainability, and social
+            innovation.</p>
+          <a href="about.html" class="inline-block mt-4 px-4 py-2 bg-[#15803d] text-white rounded">Read more</a>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="p-4 bg-white rounded shadow">
+            <h4 class="font-semibold">Vision</h4>
+            <p class="text-sm text-gray-600 mt-2">Transform farming into a smart, sustainable, farmer-first ecosystem.
+            </p>
+          </div>
+          <div class="p-4 bg-white rounded shadow">
+            <h4 class="font-semibold">Mission</h4>
+            <p class="text-sm text-gray-600 mt-2">Deliver holistic farm solutions that prevent disease and enhance
+              growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Focus preview -->
+    <section class="max-w-6xl mx-auto p-6 bg-gray-50 fade-up">
+      <h3 class="text-2xl font-semibold" style="color:var(--fm-green)">Focused Areas</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 mt-4">
+        <article
+          class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2 min-h-[220px] flex flex-col">
+          <div class="h-20 mb-4 flex items-center justify-center bg-gradient-to-br from-white to-green-50 rounded-lg">
+            <img src="assets/AquaCulture.png" alt="Aquaculture icon" class="h-12 object-contain" />
+          </div>
+          <h4 class="font-semibold">Aquaculture</h4>
+          <p class="text-sm text-gray-600 mt-2 flex-1">Advanced medicines, nutrition & automation for aquaculture.</p>
+          <a href="focused-area.html" class="inline-block mt-4 text-[var(--fm-green)] font-semibold">Learn more →</a>
+        </article>
+        <article
+          class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2 min-h-[220px] flex flex-col">
+          <div class="h-20 mb-4 flex items-center justify-center bg-gradient-to-br from-white to-green-50 rounded-lg">
+            <img src="assets/For_agriculture.png" alt="Agriculture icon" class="h-12 object-contain" />
+          </div>
+          <h4 class="font-semibold">Agriculture</h4>
+          <p class="text-sm text-gray-600 mt-2 flex-1">Herbal medicines & precision agri-solutions for diverse crops.
+          </p>
+          <a href="focused-area.html" class="inline-block mt-4 text-[var(--fm-green)] font-semibold">Learn more →</a>
+        </article>
+        <article
+          class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2 min-h-[220px] flex flex-col">
+          <div class="h-20 mb-4 flex items-center justify-center bg-gradient-to-br from-white to-green-50 rounded-lg">
+            <img src="assets/FarmAutomation.png" alt="Automation icon" class="h-12 object-contain" />
+          </div>
+          <h4 class="font-semibold">Farms Automation</h4>
+          <p class="text-sm text-gray-600 mt-2 flex-1">IoT & robotics to automate operations across sectors.</p>
+          <a href="focused-area.html" class="inline-block mt-4 text-[var(--fm-green)] font-semibold">Learn more →</a>
+        </article>
+        <article
+          class="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2 min-h-[220px] flex flex-col">
+          <div class="h-20 mb-4 flex items-center justify-center bg-gradient-to-br from-white to-green-50 rounded-lg">
+            <img src="assets/Dairy.png" alt="Dairy icon" class="h-12 object-contain" />
+          </div>
+          <h4 class="font-semibold">Dairy</h4>
+          <p class="text-sm text-gray-600 mt-2 flex-1">Veterinary medicines, nutrition & automation for dairy farms.</p>
+          <a href="focused-area.html" class="inline-block mt-4 text-[var(--fm-green)] font-semibold">Learn more →</a>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- Products preview -->
+    <section class="max-w-6xl mx-auto p-6 fade-up">
+      <h3 class="text-2xl font-semibold" style="color:var(--fm-green)">Products</h3>
+      <div class="grid md:grid-cols-4 gap-4 mt-4">
+        <div class="p-4 bg-white rounded shadow">
+          <div class="h-32 bg-gray-200 mb-3"></div>
+          <h4 class="font-semibold">MULTIMIN SPARK</h4>
+          <p class="text-sm text-gray-600 mt-1">Premium feed supplement.</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <div class="h-32 bg-gray-200 mb-3"></div>
+          <h4 class="font-semibold">Neo-Oxy+</h4>
+          <p class="text-sm text-gray-600 mt-1">Soil & yield improver.</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <div class="h-32 bg-gray-200 mb-3"></div>
+          <h4 class="font-semibold">Plankto-Max</h4>
+          <p class="text-sm text-gray-600 mt-1">For better milk yield.</p>
+        </div>
+        <div class="p-4 bg-white rounded shadow">
+          <div class="h-32 bg-gray-200 mb-3"></div>
+          <h4 class="font-semibold">Neo- Disinfector</h4>
+          <p class="text-sm text-gray-600 mt-1">IoT dosing system.</p>
+        </div>
+      </div>
+      <a href="products.html" class="inline-block mt-4 px-4 py-2 bg-[#15803d] text-white rounded">View all products</a>
+    </section>
+
+    <!-- Team preview with 4 placeholders -->
+    <section class="max-w-6xl mx-auto p-6 bg-white fade-up">
+      <h3 class="text-2xl font-semibold" style="color:var(--fm-green)">Meet Our Team</h3>
+      <p class="text-gray-700 mt-2">Our leadership team brings global expertise and local impact.</p>
+      <div class="grid md:grid-cols-4 gap-4 mt-4">
+        <div class="p-4 bg-white rounded shadow text-center">
+          <div class="h-36 bg-gray-200 mb-3 rounded-full mx-auto w-36"><img src="Shakti_pic-modified.png" alt="Shakti">
+          </div>
+          <h4 class="font-semibold">Shakti Singh</h4>
+          <p class="text-sm text-gray-600">Managing Director</p>
+          <button data-target="team/founder2.html"
+            class="mt-3 px-3 py-2 bg-[#15803d] text-white rounded profile-link">View profile</button>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <div class="h-36 bg-gray-200 mb-3 rounded-full mx-auto w-36"><img src="abhishek_pic-modified.png"
+              alt="Abhishek"></div>
+          <h4 class="font-semibold">Abhishek Chaubey</h4>
+          <p class="text-sm text-gray-600">founder</p>
+          <button data-target="team/founder1.html"
+            class="mt-3 px-3 py-2 bg-[#15803d] text-white rounded profile-link">View profile</button>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <div class="h-36 bg-gray-200 mb-3 rounded-full mx-auto w-36"><img src="Sumit_pic-modified.png" alt="Sumit">
+          </div>
+          <h4 class="font-semibold">Sumit Kumar</h4>
+          <p class="text-sm text-gray-600">Co-founder</p>
+          <button data-target="team/founder3.html"
+            class="mt-3 px-3 py-2 bg-[#15803d] text-white rounded profile-link">View profile</button>
+        </div>
+        <div class="p-4 bg-white rounded shadow text-center">
+          <div class="h-36 bg-gray-200 mb-3 rounded-full mx-auto w-36"><img src="Animesh_pic-modified.png"
+              alt="Animesh"></div>
+          <h4 class="font-semibold">Animesh Anand</h4>
+          <p class="text-sm text-gray-600">Co-founder</p>
+          <button data-target="team/founder4.html"
+            class="mt-3 px-3 py-2 bg-[#15803d] text-white rounded profile-link">View profile</button>
+        </div>
+      </div>
+      <a href="team.html" class="inline-block mt-4 px-4 py-2 border rounded">Meet full team</a>
+    </section>
+
+    <!-- Join preview -->
+    <section class="max-w-6xl mx-auto p-6 bg-gray-50 fade-up">
+      <h3 class="text-2xl font-semibold" style="color:var(--fm-green)">Join our team</h3>
+      <p class="text-gray-700 mt-2">If you are driven by impact, science and rural upliftment, get in touch.</p>
+      <a href="join.html" class="inline-block mt-3 px-3 py-2 bg-[#15803d] text-white rounded">Apply now</a>
+    </section>
+
+
+    <footer class="bg-[#1f2937] text-gray-200 mt-12">
+      <div class="max-w-6xl mx-auto p-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div>
+          <div class="flex items-center gap-3 mb-3">
+            <img src="Logo.jpg" alt="FarmsMed logo" width="56" height="56" />
+            <div>
+              <div class="font-bold text-white">FarmsMed</div>
+              <div class="text-sm text-gray-300">Integrated Aqua & Agri Innovations</div>
+            </div>
+          </div>
+          <p class="text-gray-300">Science-led farm-care solutions for aquaculture, agriculture, dairy & automation.</p>
+        </div>
+        <div class="div">
+          <h4 class="text-white font-semibold mb-2">Address</h4>
+          <p class="text-gray-300">
+            426 LGF M.G.Road Ghitorni, <br>
+            New Delhi Opposite Metro Pillar 134,<br>
+            DELHI, 110030 India
+          </p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-2">Product groups</h4>
+          <ul class="text-gray-300 space-y-1">
+            <li><a href="focused-area.html">Aquaculture</a></li>
+            <li><a href="focused-area.html">Agricultural</a></li>
+            <li><a href="focused-area.html">Farm Automation</a></li>
+            <li><a href="focused-area.html">Dairy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-2">Contact</h4>
+          <a href="tel:+91 8828461466" class="text-gray-300 block">Phone: +91 8828461466</a>
+          <a href="mailto:customersupport@farmsmed.com" class="text-gray-300 block mt-2">Email:
+            customersupport@farmsmed.com</a>
+          <form id="subscribe" class="mt-3 flex gap-2">
+            <input aria-label="email" type="email" placeholder="you@email.com" class="p-2 rounded flex-1 text-black" />
+            <button class="bg-[#15803d] text-white px-3 py-2 rounded">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="text-center text-gray-400 py-4">© 2025 FarmsMed. All rights reserved.</div>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
